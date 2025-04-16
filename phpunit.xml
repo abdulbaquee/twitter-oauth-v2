@@ -1,0 +1,24 @@
+{
+    "name": "phpunit/phpunit",
+    "description": "PHPUnit configuration for TwitterOAuthV2",
+    "type": "library",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Abraham\\TwitterOAuthV2\\Test\\": "tests/"
+        }
+    },
+    "bootstrap": "tests/bootstrap.php",
+    "testsuites": {
+        "unit": {
+            "directory": "tests/Unit"
+        },
+        "integration": {
+            "directory": "tests/Integration"
+        }
+    },
+    "colors": true,
+    "verbose": true
+}
