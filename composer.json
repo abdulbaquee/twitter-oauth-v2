@@ -1,13 +1,13 @@
 {
-    "name": "yourusername/twitter-oauth-v2",
+    "name": "abdulbaquee/twitter-oauth-v2",
     "description": "A robust PHP library for handling Twitter OAuth 2.0 authentication and API requests.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Your Name",
-            "email": "youremail@example.com",
-            "homepage": "https://yourwebsite.com",
+            "name": "Abdul Baquee",
+            "email": "abdulbaquee@gmail.com",
+            "homepage": "https://x.com/abdulbaquee85",
             "role": "Developer"
         }
     ],
