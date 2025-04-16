@@ -12,7 +12,7 @@ The most popular PHP library for Twitter's OAuth 2.0 REST API v2.
 ## Installation
 
 ```bash
-composer require abdulbaquee/twitteroauth-v2
+composer require abdulbaquee/twitter-oauth-v2
 ```
 
 ## Authentication

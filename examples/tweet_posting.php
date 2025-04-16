@@ -31,7 +31,7 @@ try {
     echo "Posting a simple text tweet\n";
     echo "==========================\n\n";
     
-    $response = $api->postTweet("Hello world! This is a tweet posted using the Twitter API v2 and abdulbaquee/twitteroauth-v2 library.");
+    $response = $api->postTweet("Hello world! This is a tweet posted using the Twitter API v2 and abdulbaquee/twitter-oauth-v2 library.");
     $data = $response->getDecodedBody();
     
     if (isset($data['data']['id'])) {

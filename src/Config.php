@@ -42,7 +42,7 @@ class Config
     protected $sslVerify = true;
     
     /** @var string Default user agent */
-    protected $userAgent = 'TwitterOAuthV2 (+https://github.com/abdulbaquee/twitteroauth-v2)';
+    protected $userAgent = 'TwitterOAuthV2 (+https://github.com/abdulbaquee/twitter-oauth-v2)';
     
     /** @var string|null Default proxy */
     protected $proxy = null;
