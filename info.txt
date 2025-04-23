@@ -1,0 +1,9 @@
+# Start the PHP Built-in Serve
+php -S localhost:8000 -t examples
+
+
+
+
+Issues:
+http://localhost:8000/users.php
+=> Error fetching relationships: API request failed with status 403: When authenticating requests to the Twitter API v2 endpoints, you must use keys and tokens from a Twitter developer App that is attached to a Project. You can create a project via the developer portal.

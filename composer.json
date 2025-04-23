@@ -1,0 +1,63 @@
+{
+    "name": "abdulbaquee/twitter-oauth-v2",
+    "description": "A modern PHP library for Twitter API v2 integration with OAuth 2.0 PKCE support",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WG Team",
+            "email": "info@webgrapple.com",
+            "homepage": "https://webgrapple.com",
+            "role": "Company"
+        },
+        {
+            "name": "Abdul Baquee",
+            "email": "abdulbaquee@gmail.com",
+            "homepage": "https://x.com/abdulbaquee85",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.0",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.0",
+        "psr/http-message": "^1.0",
+        "psr/log": "^1.1",
+        "psr/cache": "^1.0 || ^2.0 || ^3.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Abdulbaquee\\TwitterOAuth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Abdulbaquee\\TwitterOAuth\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "validate-composer": "composer validate"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "keywords": [
+        "twitter",
+        "oauth2",
+        "twitter-api",
+        "php",
+        "api-client",
+        "pkce",
+        "http-client"
+    ]
+}
