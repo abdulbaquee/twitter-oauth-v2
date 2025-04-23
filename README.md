@@ -25,7 +25,7 @@ A modern, robust PHP library for integrating Twitter API v2 using OAuth 2.0 with
 ## Installation
 
 ```bash
-composer require wg/twitter-oauth-v2
+composer require abdulbaquee/twitter-oauth-v2
 ```
 
 ## Configuration
